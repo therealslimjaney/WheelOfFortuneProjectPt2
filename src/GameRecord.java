@@ -1,5 +1,9 @@
 import java.util.Objects;
 
+/**
+ * The `GameRecord` class represents a game record with game statistics
+ * It implements the `Comparable` interface for sorting based on the score.
+ */
 public class GameRecord implements Comparable<GameRecord> {
 
     protected int score; // Score for a guessing game is defined as the number of guesses remaining)

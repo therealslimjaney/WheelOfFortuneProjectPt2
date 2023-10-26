@@ -2,8 +2,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
-
+/**
+ * The `AllGamesRecord` class represents a collection of `GameRecord` objects and provides various methods
+ * for managing and analyzing game records.
+ */
 public class AllGamesRecord {
+
+    /**
+     * Constructs a new `AllGamesRecord` object with an empty list of game records.
+     */
     private ArrayList<GameRecord> gameRecords;
 
     public AllGamesRecord() {
