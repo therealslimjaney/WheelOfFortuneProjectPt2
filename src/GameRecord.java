@@ -6,7 +6,7 @@ import java.util.Objects;
  */
 public class GameRecord implements Comparable<GameRecord> {
 
-    protected int score; // Score for a guessing game is defined as the number of guesses remaining)
+    protected int score; // Score for a guessing game is defined as the number of guesses remaining
     protected String playerId;
 
     /**
